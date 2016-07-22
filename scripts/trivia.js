@@ -7,6 +7,14 @@ var formatQuestion = function(response) {
 }
 
 module.exports = function(robot) {
+  robot.hear(/tell anhtuan no/i, function(res) {
+    res.send('No Anhtuan, just no.');
+  });
+
+  robot.hear(/tell steve no/i, function(res) {
+    res.send('Hell no, Steve!');
+  });
+
   robot.hear(/trivia question/i, function(res) {
     http.get(JSERVICE_RANDOM_QUESTION, function(response) {
       responseText = '';
