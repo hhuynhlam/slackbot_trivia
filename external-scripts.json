@@ -1,19 +1,6 @@
 [
-  "hubot-ascii-art",
-  "hubot-business-cat",
-  "hubot-darksky",
-  "hubot-devops-reactions",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
-  "hubot-google-images",
-  "hubot-google-translate",
-  "hubot-heroku-keepalive",
-  "hubot-maps",
-  "hubot-pugme",
-  "hubot-redis-brain",
-  "hubot-rules",
-  "hubot-shipit",
-  "hubot-standup-alarm",
-  "hubot-troll"
+  "hubot-redis-brain"
 ]
